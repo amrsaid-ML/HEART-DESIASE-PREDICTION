@@ -1,7 +1,12 @@
 # Heart Disease Prediction Project
 
 ## Project Overview
-This project uses machine learning to predict heart disease risk based on a set of health metrics. The process involves data preprocessing, feature selection, and training various supervised and unsupervised learning models. The final model is deployed via a Streamlit web application.
+This project aims to analyze, predict, and visualize heart disease risks using machine
+learning. The workflow involves data preprocessing, feature selection, dimensionality
+reduction (PCA), model training, evaluation, and deployment. Classification models like
+Logistic Regression, Decision Trees, Random Forest, and SVM will be used, alongside
+K-Means and Hierarchical Clustering for unsupervised learning. Additionally, a Streamlit UI
+will be built for user interaction, deployed via Ngrok, and the project will be hosted on GitHub.
 
 ## Files and Directories
 - `01_data_preprocessing.ipynb`: Notebook for data cleaning and initial preparation.

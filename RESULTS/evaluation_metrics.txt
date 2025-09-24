@@ -1,0 +1,9 @@
+--- Final Random Forest Performance ---
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93        35
+           1       0.92      0.88      0.90        25
+
+    accuracy                           0.92        60
+   macro avg       0.92      0.91      0.91        60
+weighted avg       0.92      0.92      0.92        60

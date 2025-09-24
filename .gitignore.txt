@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Project-specific files to ignore
+# Ignore the trained model, as it's a large binary file that can be recreated
+# from the notebooks.
+/models/
+
+# Ignore processed or intermediate data files to keep the repo clean.
+# Only the raw data should be tracked.
+# Assuming final_dataset.csv is created during preprocessing.
+/data/final_dataset.csv
+
+# Ignore results from model evaluation, as they can be regenerated.
+/results/
+
+# Ignore deployment-related temporary files
+/deployment/
